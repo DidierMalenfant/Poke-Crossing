@@ -6,7 +6,7 @@ import "CoreLibs/graphics"
 import "CoreLibs/timer"
 import "CoreLibs/object"
 
-import 'player'
+import "player"
 
 local gfx <const> = playdate.graphics
 
