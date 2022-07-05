@@ -2,7 +2,7 @@
 --  Poke Crossing - A game sandbox for RosieViolet100.
 --
 
-import 'CoreLibs/graphics'
+import "CoreLibs/graphics"
 import "CoreLibs/timer"
 import "CoreLibs/object"
 

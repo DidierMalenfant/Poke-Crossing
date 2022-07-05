@@ -3,7 +3,7 @@
 --
 
 import "CoreLibs/object"
-import 'CoreLibs/graphics'
+import "CoreLibs/graphics"
 import "CoreLibs/sprites"
 
 local gfx <const> = playdate.graphics
@@ -95,5 +95,5 @@ function Player:collisionResponse(other) -- luacheck: ignore self
 end
 
 function Player:drawDebug() -- luacheck: ignore self
-    --gfx.drawText(string.format("*%2.2f %2.2f*", self.dx, self.dy), 1, 1)
+    --gfx.drawText(string.format('*%2.2f %2.2f*', self.dx, self.dy), 1, 1)
 end
