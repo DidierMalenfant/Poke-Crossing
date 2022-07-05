@@ -233,6 +233,24 @@ globals = {
             drawDebug = {},
         }
     },
+    Level = {
+        fields = {
+            super = { 
+                fields = {
+                    init = {},
+                    className = {},
+                }
+            },
+            className = {},
+            init = {},
+            size = {},
+            setTileAtPosition = {},
+            updateCameraPosition = {},
+            update = {},
+            draw = {},
+            setupWallSprites = {},
+        }
+    },
 }
 
 operators = {"+=", "-=", "*=", "/="}
