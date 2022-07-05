@@ -17,8 +17,6 @@ function Main:init()
 
     gfx.setFont(gfx.getSystemFont())
 
-    local myTestTable = {}
-    table.insert(myTestTable, 0)
 
     self.backgroundImage = gfx.image.new('Artwork/Backgrounds/NightSky')
     assert(self.backgroundImage)
