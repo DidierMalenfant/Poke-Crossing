@@ -205,6 +205,18 @@ globals = {
         fields = {
             super = { 
                 fields = {
+                    init = {},                    className = {},
+                }
+            },
+            className = {},
+            init = {},
+            update = {},
+        }
+    },
+    Player = {
+        fields = {
+            super = { 
+                fields = {
                     init = {},
                     className = {},
                 }
@@ -212,6 +224,13 @@ globals = {
             className = {},
             init = {},
             update = {},
+            goLeft = {},
+            goRight = {},
+            jump = {},
+            turn = {},
+            isJumping = {},
+            collisionResponse = {},
+            drawDebug = {},
         }
     },
 }

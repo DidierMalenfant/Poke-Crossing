@@ -9,7 +9,6 @@ import "CoreLibs/sprites"
 local gfx <const> = playdate.graphics
 local snd <const> = playdate.sound
 
--- luacheck: globals Player
 class('Player').extends(gfx.sprite)
 
 function Player:init(x, y, imagePath)
@@ -85,7 +84,7 @@ function Player:isJumping()
     return self.jump_time ~= 0.0
 end
 
-function Player:collisionResponse(other) -- luacheck: ignore self other
+function Player:collisionResponse(other) -- luacheck: ignore self
     local tag = other:getTag()
 
     if tag == 0 then
@@ -95,6 +94,6 @@ function Player:collisionResponse(other) -- luacheck: ignore self other
     return gfx.sprite.kCollisionTypeSlide
 end
 
-function Player:drawDebug() -- luacheck: ignore self other
+function Player:drawDebug() -- luacheck: ignore self
     --gfx.drawText(string.format("*%2.2f %2.2f*", self.dx, self.dy), 1, 1)
 end
