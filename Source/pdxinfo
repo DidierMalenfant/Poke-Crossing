@@ -1,0 +1,7 @@
+name=pokecrossing
+author=Didier Malenfant
+description=A game sandbox for RosieViolet100.
+bundleID=net.malenfant.pokecrossing
+version=0.1
+buildNumber=1
+imagePath=SystemAssets

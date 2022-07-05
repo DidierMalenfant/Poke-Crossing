@@ -1,0 +1,6 @@
+/build
+/.nova
+.DS_Store
+*.pdx
+*.dylib
+*.bin
