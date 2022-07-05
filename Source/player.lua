@@ -14,9 +14,6 @@ class('Player').extends(gfx.sprite)
 function Player:init(x, y, imagePath)
     Player.super.init(self) -- this is critical
 
-    self.test = 23
-    assert(self.test)
-
     self.image = gfx.image.new(imagePath)
     assert(self.image)
 
